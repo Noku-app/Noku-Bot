@@ -1,13 +1,10 @@
 const commandclass = require("./class-commands");
 
-class commands extends commandclass {
+class _commands extends commandclass {
     
-    get _help() {
-        this.commands.help = async (ctx) => {
-            //Help code goes here.
-        };
+    commands["help"] = async function(ctx) {
+            ctx.message.reply("Test response");
     };
-
 };
 
-module.exports = commands;
+module.exports = _commands;
