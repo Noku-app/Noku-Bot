@@ -1,0 +1,21 @@
+{
+  "name": "nokubot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noku-app/Noku-Bot.git"
+  },
+  "author": "Noku Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noku-app/Noku-Bot/issues"
+  },
+  "homepage": "https://github.com/Noku-app/Noku-Bot#readme"
+}
