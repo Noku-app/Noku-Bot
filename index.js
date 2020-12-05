@@ -1,6 +1,4 @@
-let config = {
-    token: "NzgzODk2NDQ5OTA5Nzg0NjI2.X8hadQ.yamU4IT1z5TyVov3bt3qyDUMwBs"
-};
+let config = require("./config.json");
 
 let client = require("./src/client")
 
